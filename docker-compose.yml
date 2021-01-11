@@ -1,0 +1,45 @@
+version: '3.4'
+
+services:
+  noargs:
+    image: composer-issue-test:9597
+    build:
+      context: ./image
+    volumes:
+      - .:/src
+      - ./cache:/tmp/cache
+    hostname: noargs
+    environment:
+      REQUIRE_ARGS: "-vvv --dry-run"
+    restart: "no"
+
+  noscripts:
+    image: composer-issue-test:9597
+    volumes:
+      - .:/src
+      - ./cache:/tmp/cache
+    hostname: noscripts
+    environment:
+      REQUIRE_ARGS: "-vvv --dry-run --no-scripts"
+    restart: "no"
+
+  noplugins:
+    image: composer-issue-test:9597
+    volumes:
+      - .:/src
+      - ./cache:/tmp/cache
+    hostname: noplugins
+    environment:
+      REQUIRE_ARGS: "-vvv --dry-run --no-plugins"
+    restart: "no"
+    
+  noplugins_noscripts:
+    image: composer-issue-test:9597
+    volumes:
+      - .:/src
+      - ./cache:/tmp/cache
+    hostname: noplugins_noscripts
+    environment:
+      REQUIRE_ARGS: "-vvv --dry-run --no-scripts --no-plugins"
+    restart: "no"
+  
