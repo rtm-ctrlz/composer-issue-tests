@@ -1,3 +1,24 @@
-This is repository holds my tests for composer issues.
+# Issue
+[issue-title](https://github.com/composer/composer/issues/<issue-number>)
 
-Tests are stored in branches.
+# Test case
+
+### Requirements
+- docker
+- make
+
+### Description
+
+
+# Test result on my machine
+
+```bash
+$ some_command
+some output
+```
+
+<details>
+    <summary>spoiler title</summary>
+
+    Spoiler src
+</details>
