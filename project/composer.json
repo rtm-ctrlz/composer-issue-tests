@@ -1,0 +1,17 @@
+{
+    "name": "test/project",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "test/lib-a": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../lib-a",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}

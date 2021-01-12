@@ -1,0 +1,12 @@
+{
+    "name": "test/lib-a",
+    "type": "library",
+    "require": {},
+    "minimum-stability": "dev",
+    "scripts": {
+        "build": [
+            "mkdir build",
+            "date > build/build.log"
+        ]
+    }
+}

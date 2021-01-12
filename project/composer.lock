@@ -1,0 +1,41 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "79d473c95421f09538d791da8c3e6f87",
+    "packages": [
+        {
+            "name": "test/lib-a",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../lib-a",
+                "reference": "6d9ef66a2a2c4b4743158fa8cd7e57b90d250500"
+            },
+            "type": "library",
+            "scripts": {
+                "build": [
+                    "mkdir build",
+                    "date > build/build.log"
+                ]
+            },
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "test/lib-a": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
