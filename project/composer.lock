@@ -4,20 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79d473c95421f09538d791da8c3e6f87",
+    "content-hash": "94a9322bf2008cd59f76ddf8221698c0",
     "packages": [
         {
             "name": "test/lib-a",
-            "version": "dev-master",
+            "version": "9600.x-dev",
             "dist": {
                 "type": "path",
                 "url": "../lib-a",
-                "reference": "6d9ef66a2a2c4b4743158fa8cd7e57b90d250500"
+                "reference": "c81ada63790d4c51fbf9933fcab75ef03be89858"
             },
             "type": "library",
             "scripts": {
                 "build": [
-                    "mkdir build",
                     "date > build/build.log"
                 ]
             },
@@ -29,10 +28,8 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "test/lib-a": 20
-    },
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

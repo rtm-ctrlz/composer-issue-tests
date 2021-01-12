@@ -3,14 +3,14 @@
     "type": "project",
     "minimum-stability": "dev",
     "require": {
-        "test/lib-a": "dev-master"
+        "test/lib-a": "*"
     },
     "repositories": [
         {
             "type": "path",
             "url": "../lib-a",
             "options": {
-                "symlink": true
+                "symlink": false
             }
         }
     ]
