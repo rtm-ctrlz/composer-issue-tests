@@ -3,6 +3,8 @@
 # add fail-fast and debug commands
 set -ex
 
+composer diagnose
+
 cp -a /src/lib-a /src/project /app
 
 cd /app/lib-a
