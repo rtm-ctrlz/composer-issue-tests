@@ -1,0 +1,6 @@
+{
+    "name": "issue-9660/lib-c",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {}
+}

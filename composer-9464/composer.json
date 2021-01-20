@@ -1,0 +1,15 @@
+{
+    "name": "composer-issue-9660/composer-9464",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "composer/composer": "dev-issues/9464"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BR0kEN-/composer.git"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "composer-issue-9660/project",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "issue-9660/lib-a": "*",
+        "issue-9660/lib-b": "*",
+        "issue-9660/lib-c": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../lib-a",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../lib-b",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../lib-c",
+            "options": {
+                "symlink": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "issue-9660/lib-a",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {}
+}
